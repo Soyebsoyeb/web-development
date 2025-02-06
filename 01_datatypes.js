@@ -42,3 +42,40 @@ let booleanIsLoggedIn3 = Boolean(isLoggedIn3)
 console.log(booleanIsLoggedIn3)
 
 // Can be used for " String "
+
+
+
+
+// Comparison of datatypes in javascript
+
+console.log(undefined >= 0)
+console.log(undefined > 0)
+console.log(undefined < 0)
+console.log(undefined == 0)
+
+
+const id = Symbol('1234')
+const anotherId = Symbol('1234')
+console.log(id == anotherId)
+
+
+
+// Primitive datatypes
+// 7 types:-> String,Number,Boolean,null,undefined,Symbol(for unique) ,BigInt
+// Reference datatypes(non-primitive)
+// Array,Objects,Functions
+
+const hero = ["me","you","he"]
+
+let myObj = {
+    name:"hitesh",
+    age:22
+}
+
+const myfunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof hero)  //object
+console.log(typeof myObj)  // object
+console.log(typeof myfunction) //function
