@@ -63,10 +63,10 @@ console.log(id == anotherId)
 // Primitive datatypes
 // 7 types:-> String,Number,Boolean,null,undefined,Symbol(for unique) ,BigInt
 // Reference datatypes(non-primitive)
-// Array,Objects,Functions
+// Array,Objects,Functions   // They are reference datatypes
 
 const hero = ["me","you","he"]
-
+ 
 let myObj = {
     name:"hitesh",
     age:22
